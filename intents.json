@@ -7,7 +7,7 @@
   {
     "tag": "goodbye",
     "patterns": ["Bye", "See you", "Goodbye", "Catch you later", "Talk to you soon"],
-    "responses": ["Goodbye!", "See you later!", "Take care!", "Bye for now!", "Talk to you soon!"]
+    "responses": ["Goodbye!", "See you later!", "Bye! Take care.", "Take care!", "Talk to you soon!"]
   },
   {
     "tag": "thanks",
@@ -56,8 +56,8 @@
   },
   {
     "tag": "favorite_sport",
-    "patterns": ["What's your favorite sport?", "Do you like sports?", "Which sport do you prefer?"],
-    "responses": ["I enjoy talking about all sports!", "Hard to choose — I like football, basketball, and more!", "Every sport is exciting in its own way."]
+    "patterns": ["What's your favorite sport?", "Do you like football?", "Are you into basketball?", "Do you like sports?", "Which sport do you prefer?"],
+    "responses": ["I love all sports, but football is exciting!", "Basketball is fun to watch!", "Cricket is very popular!", "I enjoy talking about all sports!", "Every sport is exciting in its own way."]
   },
   {
     "tag": "football_rules",
@@ -87,7 +87,13 @@
   {
     "tag": "sports_news",
     "patterns": ["Give me the latest sports news", "What's happening in sports?", "Any sports updates?"],
-    "responses": ["I can't provide real-time updates, but you can check sports websites!", "Try ESPN or BBC Sport for the latest info.", "I recommend checking live sports feeds."]
+    "responses": [
+      "Scottie Scheffler leads the PGA Championship with a three-stroke advantage heading into the final round. He shot a 65 to reach 11-under for the tournament.",
+      "Max Verstappen clinched victory at the Emilia-Romagna Grand Prix, securing his second win of the season.",
+      "Carlos Alcaraz defeated Jannik Sinner in the Italian Open final, extending his lead in 'Big Titles' over Sinner.",
+      "In the Premier League, Arsenal secured their return to the Champions League with a victory over Newcastle.",
+      "Crystal Palace won their first-ever major trophy by defeating Manchester City 1-0 in the FA Cup final."
+    ]
   },
   {
     "tag": "famous_athletes",
@@ -103,5 +109,14 @@
     "tag": "world_cup",
     "patterns": ["What is the World Cup?", "Tell me about the FIFA World Cup", "When is the next World Cup?"],
     "responses": ["The FIFA World Cup is a major international football tournament.", "It's held every four years with teams from all over the world.", "It's the most watched sporting event globally."]
+  },
+  {
+    "tag": "sports_quiz",
+    "patterns": ["Can you quiz me on sports?", "Test my sports knowledge", "Give me a sports trivia question"],
+    "responses": [
+      "Which country won the 2018 FIFA World Cup?",
+      "Who holds the record for the most home runs in a single MLB season?",
+      "Which NBA team has the most championships?"
+    ]
   }
 ]
