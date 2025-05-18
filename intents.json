@@ -1,26 +1,8 @@
-
 [
   {
     "tag": "greeting",
     "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
     "responses": ["Hi there!", "Hello!", "Hey!", "I'm fine, thanks!", "Not much, you?"]
-  },
-  {
-    "tag": "goodbye",
-    "patterns": ["Bye", "See you", "Goodbye"],
-    "responses": ["Goodbye!", "See you later!", "Bye! Take care."]
-  },
-  {
-    "tag": "favorite_sport",
-    "patterns": ["What's your favorite sport?", "Do you like football?", "Are you into basketball?"],
-    "responses": ["I love all sports, but football is exciting!", "Basketball is fun to watch!", "Cricket is very popular!"]
-  }
-]
-[
-  {
-    "tag": "greeting",
-    "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
-    "responses": ["Hi there", "Hello", "Hey", "I'm fine, thank you", "Nothing much"]
   },
   {
     "tag": "goodbye",
@@ -71,9 +53,7 @@
     "tag": "hobby",
     "patterns": ["Do you have hobbies?", "What do you like to do?", "What are your interests?"],
     "responses": ["I like chatting with people like you!", "Helping others is my favorite thing to do.", "Answering questions is what I do best."]
-  }
-]
-[
+  },
   {
     "tag": "favorite_sport",
     "patterns": ["What's your favorite sport?", "Do you like sports?", "Which sport do you prefer?"],
